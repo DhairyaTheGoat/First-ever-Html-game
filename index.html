@@ -2,28 +2,35 @@
 <html>
     <head>
         <title> My Portfolio Page </title>
-        <style>h1{
-        color:aquamarine}
-        *{
-            border:solid
-        }
-        </style>
+        <link rel="stylesheet"
+              type="text/css"
+              href="style.css"/>
     </head>
     <body>
-        <h1>Dhairya's Portfolio</h1>
-        <a href="index.html">Projects</a>
-        <a href="aboutMe.html">About Me!</a>
-
+        <div class="header">
+            <h1>Dhairya's Portfolio</h1>
+            <div class="menu">
+                <a href="index.html">Projects</a>
+                <a href="aboutMe.html">About Me!</a>
+            </div>
+        </div>
         <h2>These are some Games Designed by Me!</h2>
         <p> Games Use p5.js, p5.play, p5.dom.min.js and matter.js libraries in javascript</p>
-        <a href="https://editor.p5js.org/whitehatjr/present/ePJrHCACM"><img src="https://via.placeholder.com/300"/></a>
-        <p>T-REX RUNNER GAME</p>
-
-        <a href="#"><img src="https://via.placeholder.com/300"/></a>
-        <p>AVOID-DE-BALLZ</p>
-
-        <a href="#"><img src="fb.png" width = 50 height = 50/></a>
-        <a href="#"><img src="insta.png"/></a>
-        <a href="#"><img src="youtube.png"/></a>
+        <div class="grid">
+            <div class="item">
+                <a href="https://editor.p5js.org/whitehatjr/present/ePJrHCACM"><img src="https://via.placeholder.com/300"/></a>
+                <p>T-REX RUNNER GAME</p>
+            </div>
+                <div class="item">
+                    <a href="#"><img src="https://via.placeholder.com/300"/></a>
+                    <p>AVOID-DE-BALLZ</p>
+                </div>
+        </div>
+        <div class="footer">
+            <a href="#"><img src="Icons/fb.png" width = 50 height=50/></a>
+            <a href="#"><img src="Icons/insta.png" width = 50 height=50/></a>
+            <a href="#"><img src="Icons/youtube.png" width = 50 height=50/></a>
+        </div>
     </body>
+
 </html>
