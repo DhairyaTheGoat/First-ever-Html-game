@@ -1,10 +1,18 @@
 h1{
-    color:aquamarine
+    color:cyan
 }
 *{
-        border:solid
+        border:solid;
+        border-color:#f00;
     }
 
+h2{
+    color: #26ff00
+}
+ 
+p{
+    color:#001ac6
+}
 .header{
   background-color:black;
   display:flex;
@@ -21,3 +29,8 @@ h1{
     justify-content:flex-end;
     display:flex;
 }
+ 
+body{
+    background:#808080;
+} 
+
